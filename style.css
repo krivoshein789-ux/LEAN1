@@ -1,0 +1,98 @@
+body {
+  margin: 0;        
+  background: linear-gradient(to bottom, #eef5f7, #dfecef);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: black;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #30d5c8;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}   
+
+pre {
+    display: inline-block;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 16px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    color: #222;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+.pic1 {
+    float: right;
+    opacity: 0.75;
+    width: 550px;
+    height: 400px;
+    margin-right: 100px;
+    padding-top: 70px;
+}
+
+.pic2 {
+    float: left;
+    opacity: 0.75;
+    padding-top: 20px;
+    width: 550px;
+    height: 380px;
+    margin-left: 40px;
+} 
+
+.badge {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    background: white;
+    padding: 12px 20px;
+    border-radius: 16px;
+}
+
+.uslugi {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    background: white;
+    padding: 12px 20px;
+    border-radius: 16px;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+.img-row {
+  display: flex;
+  justify-content: space-between; /* равномерное распределение с отступами */
+  gap: 30px; /* расстояние между картинками */
+}
+
+.img-row img {
+  width: 100%; /* 4 картинки + 3 отступа */
+  height: auto;
+  border-radius: 8px;
+}
+
+.caption {
+    color: #222;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
